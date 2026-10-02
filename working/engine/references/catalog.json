@@ -441,6 +441,26 @@
           2.5
         ]
       ]
+    },
+    "4032": {
+      "name": "Round Plate 2 x 2 with Axle Hole",
+      "width": 2,
+      "depth": 2,
+      "height": 1,
+      "source": "https://library.ldraw.org/library/official/parts/4032.dat",
+      "ldraw_bottom": 8,
+      "studs": true,
+      "round": true
+    },
+    "25269": {
+      "name": "Quarter Round Tile 1 x 1",
+      "width": 1,
+      "depth": 1,
+      "height": 1,
+      "source": "https://library.ldraw.org/library/official/parts/25269.dat",
+      "ldraw_bottom": 8,
+      "studs": false,
+      "round": false
     }
   },
   "colors": {

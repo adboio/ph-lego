@@ -1,8 +1,8 @@
 {
   "schema_version": "max-1.0",
-  "id": "max-posthog-seated",
+  "id": "max-posthog-face-v2",
   "title": "Max the PostHog Hedgehog",
-  "description": "A seated GoBricks interpretation of Max, with a warm tan belly, rounded ears, forward feet and a textured brown coat. Designed from the plush stance and illustrated mascot colors. Physical assembly has not been tested.",
+  "description": "Seated Max with unchanged Tan skin, thin tan ears with centered brown interiors, a simple tan muzzle, a brown nose, and brick-built black eyes with white quarter-tile glints. Physical assembly has not been tested.",
   "author": "Designed with Codex for Adam",
   "license": "UNLICENSED",
   "parts": [
@@ -6970,176 +6970,6 @@
       "orientation": "front"
     },
     {
-      "id": "p0774",
-      "part": "3032",
-      "color": "031",
-      "x": -3,
-      "y": -1.4,
-      "z": 31.5,
-      "rotation": 0,
-      "orientation": "front"
-    },
-    {
-      "id": "p0775",
-      "part": "15068",
-      "color": "031",
-      "x": -3,
-      "y": -2.2,
-      "z": 31.5,
-      "rotation": 270,
-      "orientation": "front"
-    },
-    {
-      "id": "p0776",
-      "part": "15068",
-      "color": "031",
-      "x": 1,
-      "y": -2.2,
-      "z": 31.5,
-      "rotation": 90,
-      "orientation": "front"
-    },
-    {
-      "id": "p0777",
-      "part": "3022",
-      "color": "031",
-      "x": -1,
-      "y": -1.8,
-      "z": 31.5,
-      "rotation": 0,
-      "orientation": "front"
-    },
-    {
-      "id": "p0778",
-      "part": "3069b",
-      "color": "082",
-      "x": -1,
-      "y": -2.2,
-      "z": 34,
-      "rotation": 0,
-      "orientation": "front"
-    },
-    {
-      "id": "p0779",
-      "part": "3069b",
-      "color": "031",
-      "x": -1,
-      "y": -2.2,
-      "z": 31.5,
-      "rotation": 0,
-      "orientation": "front"
-    },
-    {
-      "id": "p0780",
-      "part": "27925",
-      "color": "082",
-      "x": -3,
-      "y": -1.8,
-      "z": 36.5,
-      "rotation": 180,
-      "orientation": "front"
-    },
-    {
-      "id": "p0781",
-      "part": "27925",
-      "color": "082",
-      "x": 1,
-      "y": -1.8,
-      "z": 36.5,
-      "rotation": 90,
-      "orientation": "front"
-    },
-    {
-      "id": "p0782",
-      "part": "3069b",
-      "color": "082",
-      "x": -1,
-      "y": -1.8,
-      "z": 39,
-      "rotation": 0,
-      "orientation": "front"
-    },
-    {
-      "id": "p0783",
-      "part": "15573",
-      "color": "031",
-      "x": -1,
-      "y": -1.8,
-      "z": 36.5,
-      "rotation": 0,
-      "orientation": "front"
-    },
-    {
-      "id": "p0784",
-      "part": "98138",
-      "color": "080",
-      "x": -0.5,
-      "y": -2.2,
-      "z": 36.5,
-      "rotation": 0,
-      "orientation": "front"
-    },
-    {
-      "id": "p0785",
-      "part": "98138",
-      "color": "080",
-      "x": -3,
-      "y": -1.4,
-      "z": 42.5,
-      "rotation": 0,
-      "orientation": "front"
-    },
-    {
-      "id": "p0786",
-      "part": "98138",
-      "color": "080",
-      "x": 2,
-      "y": -1.4,
-      "z": 42.5,
-      "rotation": 0,
-      "orientation": "front"
-    },
-    {
-      "id": "p0787",
-      "part": "87081",
-      "color": "081",
-      "x": -6,
-      "y": -2.2,
-      "z": 48.5,
-      "rotation": 0,
-      "orientation": "front"
-    },
-    {
-      "id": "p0788",
-      "part": "14769",
-      "color": "031",
-      "x": -5,
-      "y": -2.6,
-      "z": 53.5,
-      "rotation": 0,
-      "orientation": "front"
-    },
-    {
-      "id": "p0789",
-      "part": "87081",
-      "color": "081",
-      "x": 2,
-      "y": -2.2,
-      "z": 48.5,
-      "rotation": 0,
-      "orientation": "front"
-    },
-    {
-      "id": "p0790",
-      "part": "14769",
-      "color": "031",
-      "x": 3,
-      "y": -2.6,
-      "z": 53.5,
-      "rotation": 0,
-      "orientation": "front"
-    },
-    {
       "id": "p0791",
       "part": "54200",
       "color": "082",
@@ -7928,6 +7758,216 @@
       "z": 42.5,
       "rotation": 0,
       "orientation": "right"
+    },
+    {
+      "id": "face-001",
+      "part": "3795",
+      "color": "031",
+      "x": -3,
+      "y": -1.4,
+      "z": 34,
+      "rotation": 0,
+      "orientation": "front"
+    },
+    {
+      "id": "face-002",
+      "part": "15068",
+      "color": "031",
+      "x": -3,
+      "y": -2.2,
+      "z": 34,
+      "rotation": 270,
+      "orientation": "front"
+    },
+    {
+      "id": "face-003",
+      "part": "15068",
+      "color": "031",
+      "x": 1,
+      "y": -2.2,
+      "z": 34,
+      "rotation": 90,
+      "orientation": "front"
+    },
+    {
+      "id": "face-004",
+      "part": "3022",
+      "color": "031",
+      "x": -1,
+      "y": -1.8,
+      "z": 34,
+      "rotation": 0,
+      "orientation": "front"
+    },
+    {
+      "id": "face-005",
+      "part": "3069b",
+      "color": "031",
+      "x": -1,
+      "y": -2.2,
+      "z": 34,
+      "rotation": 0,
+      "orientation": "front"
+    },
+    {
+      "id": "face-006",
+      "part": "15573",
+      "color": "031",
+      "x": -1,
+      "y": -2.2,
+      "z": 36.5,
+      "rotation": 0,
+      "orientation": "front"
+    },
+    {
+      "id": "face-007",
+      "part": "98138",
+      "color": "081",
+      "x": -0.5,
+      "y": -2.6,
+      "z": 36.5,
+      "rotation": 0,
+      "orientation": "front"
+    },
+    {
+      "id": "face-008",
+      "part": "4032",
+      "color": "080",
+      "x": -4,
+      "y": -1.4,
+      "z": 42.5,
+      "rotation": 0,
+      "orientation": "front"
+    },
+    {
+      "id": "face-009",
+      "part": "25269",
+      "color": "080",
+      "x": -4,
+      "y": -1.8,
+      "z": 42.5,
+      "rotation": 270,
+      "orientation": "front"
+    },
+    {
+      "id": "face-010",
+      "part": "25269",
+      "color": "080",
+      "x": -3,
+      "y": -1.8,
+      "z": 42.5,
+      "rotation": 0,
+      "orientation": "front"
+    },
+    {
+      "id": "face-011",
+      "part": "25269",
+      "color": "090",
+      "x": -4,
+      "y": -1.8,
+      "z": 45.0,
+      "rotation": 180,
+      "orientation": "front"
+    },
+    {
+      "id": "face-012",
+      "part": "25269",
+      "color": "080",
+      "x": -3,
+      "y": -1.8,
+      "z": 45.0,
+      "rotation": 90,
+      "orientation": "front"
+    },
+    {
+      "id": "face-013",
+      "part": "4032",
+      "color": "080",
+      "x": 2,
+      "y": -1.4,
+      "z": 42.5,
+      "rotation": 0,
+      "orientation": "front"
+    },
+    {
+      "id": "face-014",
+      "part": "25269",
+      "color": "080",
+      "x": 2,
+      "y": -1.8,
+      "z": 42.5,
+      "rotation": 270,
+      "orientation": "front"
+    },
+    {
+      "id": "face-015",
+      "part": "25269",
+      "color": "080",
+      "x": 3,
+      "y": -1.8,
+      "z": 42.5,
+      "rotation": 0,
+      "orientation": "front"
+    },
+    {
+      "id": "face-016",
+      "part": "25269",
+      "color": "090",
+      "x": 2,
+      "y": -1.8,
+      "z": 45.0,
+      "rotation": 180,
+      "orientation": "front"
+    },
+    {
+      "id": "face-017",
+      "part": "25269",
+      "color": "080",
+      "x": 3,
+      "y": -1.8,
+      "z": 45.0,
+      "rotation": 90,
+      "orientation": "front"
+    },
+    {
+      "id": "face-018",
+      "part": "60474",
+      "color": "031",
+      "x": -6,
+      "y": -1.4,
+      "z": 48.5,
+      "rotation": 0,
+      "orientation": "front"
+    },
+    {
+      "id": "face-019",
+      "part": "14769",
+      "color": "081",
+      "x": -5,
+      "y": -1.8,
+      "z": 51,
+      "rotation": 0,
+      "orientation": "front"
+    },
+    {
+      "id": "face-020",
+      "part": "60474",
+      "color": "031",
+      "x": 2,
+      "y": -1.4,
+      "z": 48.5,
+      "rotation": 0,
+      "orientation": "front"
+    },
+    {
+      "id": "face-021",
+      "part": "14769",
+      "color": "081",
+      "x": 3,
+      "y": -1.8,
+      "z": 51,
+      "rotation": 0,
+      "orientation": "front"
     }
   ],
   "steps": [
@@ -10196,71 +10236,73 @@
       "note": "Press the vertical backing plate onto the two exposed side studs, then fit the curved caps."
     },
     {
-      "title": "Build the projecting muzzle",
+      "title": "Build the soft tan muzzle",
       "parts": [
-        "p0774",
-        "p0775",
-        "p0776",
-        "p0777"
+        "face-001",
+        "face-002",
+        "face-003",
+        "face-004"
       ],
       "view": "front-right"
     },
     {
-      "title": "Build the projecting muzzle",
+      "title": "Finish the muzzle and brown nose",
       "parts": [
-        "p0778",
-        "p0779"
+        "face-005",
+        "face-006",
+        "face-007"
       ],
       "view": "front-right"
     },
     {
-      "title": "Form Max’s arched muzzle",
+      "title": "Mount the left eye",
       "parts": [
-        "p0780",
-        "p0781",
-        "p0782",
-        "p0783"
+        "face-008"
       ],
       "view": "front-right"
     },
     {
-      "title": "Form Max’s arched muzzle",
+      "title": "Add the left eye and white glint",
       "parts": [
-        "p0784"
+        "face-009",
+        "face-010",
+        "face-011",
+        "face-012"
       ],
       "view": "front-right"
     },
     {
-      "title": "Attach the glossy black eyes",
+      "title": "Mount the right eye",
       "parts": [
-        "p0785"
+        "face-013"
       ],
       "view": "front-right"
     },
     {
-      "title": "Attach the glossy black eyes",
+      "title": "Add the right eye and white glint",
       "parts": [
-        "p0786"
+        "face-014",
+        "face-015",
+        "face-016",
+        "face-017"
       ],
       "view": "front-right"
     },
     {
-      "title": "Build the round ears",
+      "title": "Build the centered left ear",
       "parts": [
-        "p0787",
-        "p0788"
+        "face-018",
+        "face-019"
       ],
-      "view": "front-right",
-      "note": "Attach the brown ring to the two side studs. The tan inset sits high on the ring, leaving the lower half brown."
+      "view": "front-right"
     },
     {
-      "title": "Build the round ears",
+      "title": "Build the centered right ear",
       "parts": [
-        "p0789",
-        "p0790"
+        "face-020",
+        "face-021"
       ],
-      "view": "front-right",
-      "note": "Attach the brown ring to the two side studs. The tan inset sits high on the ring, leaving the lower half brown."
+      "view": "front-right"
     },
     {
       "title": "Texture the front of the coat",

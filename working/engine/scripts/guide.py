@@ -204,6 +204,7 @@ def pdf(model,steps,report,out,style='studio',translation=None,fonts_override=No
         yy=480
         for p in inv[start:start+17]:
             c.setFillColor(HexColor(COLORS[p['color_id']]['hex']));c.rect(36,yy-3,13,13,fill=1,stroke=0)
-            text(65,yy,part_name(p),11);text(270,yy,p['part_id'],11);text(390,yy,color_name(p),11);text(700,yy,str(p['quantity']),12,'Bold');yy-=24
+            name_size=min(11,190*11/pdfmetrics.stringWidth(part_name(p),'Body',11))
+            text(65,yy,part_name(p),name_size);text(270,yy,p['part_id'],11);text(390,yy,color_name(p),11);text(700,yy,str(p['quantity']),12,'Bold');yy-=24
         footer(page);page+=1;c.showPage()
     c.save()

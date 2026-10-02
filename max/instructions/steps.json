@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "model_id": "max-posthog-seated",
+  "model_id": "max-posthog-face-v2",
   "steps": [
     {
       "number": 1,
@@ -14465,7 +14465,7 @@
     },
     {
       "number": 249,
-      "title": "Build the projecting muzzle",
+      "title": "Build the soft tan muzzle",
       "note": "",
       "view": "front-right",
       "image": "step-249.png",
@@ -14486,8 +14486,8 @@
           "quantity": 1
         },
         {
-          "part_id": "3032",
-          "part_name": "Plate 4 x 6",
+          "part_id": "3795",
+          "part_name": "Plate 2 x 6",
           "color_id": "031",
           "color_name": "Tan",
           "quantity": 1
@@ -14496,45 +14496,45 @@
       "placements": [
         {
           "marker": 1,
-          "instance": "p0774",
-          "part_id": "3032",
+          "instance": "face-001",
+          "part_id": "3795",
           "color_id": "031",
           "x": -3,
           "y": -1.4,
-          "z": 31.5,
+          "z": 34,
           "rotation": 0,
           "orientation": "front"
         },
         {
           "marker": 2,
-          "instance": "p0775",
+          "instance": "face-002",
           "part_id": "15068",
           "color_id": "031",
           "x": -3,
           "y": -2.2,
-          "z": 31.5,
+          "z": 34,
           "rotation": 270,
           "orientation": "front"
         },
         {
           "marker": 3,
-          "instance": "p0776",
+          "instance": "face-003",
           "part_id": "15068",
           "color_id": "031",
           "x": 1,
           "y": -2.2,
-          "z": 31.5,
+          "z": 34,
           "rotation": 90,
           "orientation": "front"
         },
         {
           "marker": 4,
-          "instance": "p0777",
+          "instance": "face-004",
           "part_id": "3022",
           "color_id": "031",
           "x": -1,
           "y": -1.8,
-          "z": 31.5,
+          "z": 34,
           "rotation": 0,
           "orientation": "front"
         }
@@ -14542,59 +14542,11 @@
     },
     {
       "number": 250,
-      "title": "Build the projecting muzzle",
+      "title": "Finish the muzzle and brown nose",
       "note": "",
       "view": "front-right",
       "image": "step-250.png",
       "map": "map-250.svg",
-      "parts": [
-        {
-          "part_id": "3069b",
-          "part_name": "Tile 1 x 2",
-          "color_id": "031",
-          "color_name": "Tan",
-          "quantity": 1
-        },
-        {
-          "part_id": "3069b",
-          "part_name": "Tile 1 x 2",
-          "color_id": "082",
-          "color_name": "Dark Brown",
-          "quantity": 1
-        }
-      ],
-      "placements": [
-        {
-          "marker": 1,
-          "instance": "p0778",
-          "part_id": "3069b",
-          "color_id": "082",
-          "x": -1,
-          "y": -2.2,
-          "z": 34,
-          "rotation": 0,
-          "orientation": "front"
-        },
-        {
-          "marker": 2,
-          "instance": "p0779",
-          "part_id": "3069b",
-          "color_id": "031",
-          "x": -1,
-          "y": -2.2,
-          "z": 31.5,
-          "rotation": 0,
-          "orientation": "front"
-        }
-      ]
-    },
-    {
-      "number": 251,
-      "title": "Form Max’s arched muzzle",
-      "note": "",
-      "view": "front-right",
-      "image": "step-251.png",
-      "map": "map-251.svg",
       "parts": [
         {
           "part_id": "15573",
@@ -14604,62 +14556,81 @@
           "quantity": 1
         },
         {
-          "part_id": "27925",
-          "part_name": "Corner Round Tile 2 x 2",
-          "color_id": "082",
-          "color_name": "Dark Brown",
-          "quantity": 2
-        },
-        {
           "part_id": "3069b",
           "part_name": "Tile 1 x 2",
-          "color_id": "082",
-          "color_name": "Dark Brown",
+          "color_id": "031",
+          "color_name": "Tan",
+          "quantity": 1
+        },
+        {
+          "part_id": "98138",
+          "part_name": "Round Tile 1 x 1",
+          "color_id": "081",
+          "color_name": "Reddish Brown",
           "quantity": 1
         }
       ],
       "placements": [
         {
           "marker": 1,
-          "instance": "p0780",
-          "part_id": "27925",
-          "color_id": "082",
-          "x": -3,
-          "y": -1.8,
-          "z": 36.5,
-          "rotation": 180,
-          "orientation": "front"
-        },
-        {
-          "marker": 2,
-          "instance": "p0781",
-          "part_id": "27925",
-          "color_id": "082",
-          "x": 1,
-          "y": -1.8,
-          "z": 36.5,
-          "rotation": 90,
-          "orientation": "front"
-        },
-        {
-          "marker": 3,
-          "instance": "p0782",
+          "instance": "face-005",
           "part_id": "3069b",
-          "color_id": "082",
+          "color_id": "031",
           "x": -1,
-          "y": -1.8,
-          "z": 39,
+          "y": -2.2,
+          "z": 34,
           "rotation": 0,
           "orientation": "front"
         },
         {
-          "marker": 4,
-          "instance": "p0783",
+          "marker": 2,
+          "instance": "face-006",
           "part_id": "15573",
           "color_id": "031",
           "x": -1,
-          "y": -1.8,
+          "y": -2.2,
           "z": 36.5,
+          "rotation": 0,
+          "orientation": "front"
+        },
+        {
+          "marker": 3,
+          "instance": "face-007",
+          "part_id": "98138",
+          "color_id": "081",
+          "x": -0.5,
+          "y": -2.6,
+          "z": 36.5,
+          "rotation": 0,
+          "orientation": "front"
+        }
+      ]
+    },
+    {
+      "number": 251,
+      "title": "Mount the left eye",
+      "note": "",
+      "view": "front-right",
+      "image": "step-251.png",
+      "map": "map-251.svg",
+      "parts": [
+        {
+          "part_id": "4032",
+          "part_name": "Round Plate 2 x 2 with Axle Hole",
+          "color_id": "080",
+          "color_name": "Black",
+          "quantity": 1
+        }
+      ],
+      "placements": [
+        {
+          "marker": 1,
+          "instance": "face-008",
+          "part_id": "4032",
+          "color_id": "080",
+          "x": -4,
+          "y": -1.4,
+          "z": 42.5,
           "rotation": 0,
           "orientation": "front"
         }
@@ -14667,45 +14638,85 @@
     },
     {
       "number": 252,
-      "title": "Form Max’s arched muzzle",
+      "title": "Add the left eye and white glint",
       "note": "",
       "view": "front-right",
       "image": "step-252.png",
       "map": "map-252.svg",
       "parts": [
         {
-          "part_id": "98138",
-          "part_name": "Round Tile 1 x 1",
+          "part_id": "25269",
+          "part_name": "Quarter Round Tile 1 x 1",
           "color_id": "080",
           "color_name": "Black",
+          "quantity": 3
+        },
+        {
+          "part_id": "25269",
+          "part_name": "Quarter Round Tile 1 x 1",
+          "color_id": "090",
+          "color_name": "White",
           "quantity": 1
         }
       ],
       "placements": [
         {
           "marker": 1,
-          "instance": "p0784",
-          "part_id": "98138",
+          "instance": "face-009",
+          "part_id": "25269",
           "color_id": "080",
-          "x": -0.5,
-          "y": -2.2,
-          "z": 36.5,
+          "x": -4,
+          "y": -1.8,
+          "z": 42.5,
+          "rotation": 270,
+          "orientation": "front"
+        },
+        {
+          "marker": 2,
+          "instance": "face-010",
+          "part_id": "25269",
+          "color_id": "080",
+          "x": -3,
+          "y": -1.8,
+          "z": 42.5,
           "rotation": 0,
+          "orientation": "front"
+        },
+        {
+          "marker": 3,
+          "instance": "face-011",
+          "part_id": "25269",
+          "color_id": "090",
+          "x": -4,
+          "y": -1.8,
+          "z": 45.0,
+          "rotation": 180,
+          "orientation": "front"
+        },
+        {
+          "marker": 4,
+          "instance": "face-012",
+          "part_id": "25269",
+          "color_id": "080",
+          "x": -3,
+          "y": -1.8,
+          "z": 45.0,
+          "rotation": 90,
           "orientation": "front"
         }
       ]
     },
     {
       "number": 253,
-      "title": "Attach the glossy black eyes",
+      "title": "Mount the right eye",
       "note": "",
       "view": "front-right",
       "image": "step-253.png",
       "map": "map-253.svg",
       "parts": [
         {
-          "part_id": "98138",
-          "part_name": "Round Tile 1 x 1",
+          "part_id": "4032",
+          "part_name": "Round Plate 2 x 2 with Axle Hole",
           "color_id": "080",
           "color_name": "Black",
           "quantity": 1
@@ -14714,10 +14725,10 @@
       "placements": [
         {
           "marker": 1,
-          "instance": "p0785",
-          "part_id": "98138",
+          "instance": "face-013",
+          "part_id": "4032",
           "color_id": "080",
-          "x": -3,
+          "x": 2,
           "y": -1.4,
           "z": 42.5,
           "rotation": 0,
@@ -14727,38 +14738,78 @@
     },
     {
       "number": 254,
-      "title": "Attach the glossy black eyes",
+      "title": "Add the right eye and white glint",
       "note": "",
       "view": "front-right",
       "image": "step-254.png",
       "map": "map-254.svg",
       "parts": [
         {
-          "part_id": "98138",
-          "part_name": "Round Tile 1 x 1",
+          "part_id": "25269",
+          "part_name": "Quarter Round Tile 1 x 1",
           "color_id": "080",
           "color_name": "Black",
+          "quantity": 3
+        },
+        {
+          "part_id": "25269",
+          "part_name": "Quarter Round Tile 1 x 1",
+          "color_id": "090",
+          "color_name": "White",
           "quantity": 1
         }
       ],
       "placements": [
         {
           "marker": 1,
-          "instance": "p0786",
-          "part_id": "98138",
+          "instance": "face-014",
+          "part_id": "25269",
           "color_id": "080",
           "x": 2,
-          "y": -1.4,
+          "y": -1.8,
+          "z": 42.5,
+          "rotation": 270,
+          "orientation": "front"
+        },
+        {
+          "marker": 2,
+          "instance": "face-015",
+          "part_id": "25269",
+          "color_id": "080",
+          "x": 3,
+          "y": -1.8,
           "z": 42.5,
           "rotation": 0,
+          "orientation": "front"
+        },
+        {
+          "marker": 3,
+          "instance": "face-016",
+          "part_id": "25269",
+          "color_id": "090",
+          "x": 2,
+          "y": -1.8,
+          "z": 45.0,
+          "rotation": 180,
+          "orientation": "front"
+        },
+        {
+          "marker": 4,
+          "instance": "face-017",
+          "part_id": "25269",
+          "color_id": "080",
+          "x": 3,
+          "y": -1.8,
+          "z": 45.0,
+          "rotation": 90,
           "orientation": "front"
         }
       ]
     },
     {
       "number": 255,
-      "title": "Build the round ears",
-      "note": "Attach the brown ring to the two side studs. The tan inset sits high on the ring, leaving the lower half brown.",
+      "title": "Build the centered left ear",
+      "note": "",
       "view": "front-right",
       "image": "step-255.png",
       "map": "map-255.svg",
@@ -14766,38 +14817,38 @@
         {
           "part_id": "14769",
           "part_name": "Round Tile 2 x 2",
-          "color_id": "031",
-          "color_name": "Tan",
+          "color_id": "081",
+          "color_name": "Reddish Brown",
           "quantity": 1
         },
         {
-          "part_id": "87081",
-          "part_name": "Round Brick 4 x 4 with Hole",
-          "color_id": "081",
-          "color_name": "Reddish Brown",
+          "part_id": "60474",
+          "part_name": "Round Plate 4 x 4",
+          "color_id": "031",
+          "color_name": "Tan",
           "quantity": 1
         }
       ],
       "placements": [
         {
           "marker": 1,
-          "instance": "p0787",
-          "part_id": "87081",
-          "color_id": "081",
+          "instance": "face-018",
+          "part_id": "60474",
+          "color_id": "031",
           "x": -6,
-          "y": -2.2,
+          "y": -1.4,
           "z": 48.5,
           "rotation": 0,
           "orientation": "front"
         },
         {
           "marker": 2,
-          "instance": "p0788",
+          "instance": "face-019",
           "part_id": "14769",
-          "color_id": "031",
+          "color_id": "081",
           "x": -5,
-          "y": -2.6,
-          "z": 53.5,
+          "y": -1.8,
+          "z": 51,
           "rotation": 0,
           "orientation": "front"
         }
@@ -14805,8 +14856,8 @@
     },
     {
       "number": 256,
-      "title": "Build the round ears",
-      "note": "Attach the brown ring to the two side studs. The tan inset sits high on the ring, leaving the lower half brown.",
+      "title": "Build the centered right ear",
+      "note": "",
       "view": "front-right",
       "image": "step-256.png",
       "map": "map-256.svg",
@@ -14814,38 +14865,38 @@
         {
           "part_id": "14769",
           "part_name": "Round Tile 2 x 2",
-          "color_id": "031",
-          "color_name": "Tan",
+          "color_id": "081",
+          "color_name": "Reddish Brown",
           "quantity": 1
         },
         {
-          "part_id": "87081",
-          "part_name": "Round Brick 4 x 4 with Hole",
-          "color_id": "081",
-          "color_name": "Reddish Brown",
+          "part_id": "60474",
+          "part_name": "Round Plate 4 x 4",
+          "color_id": "031",
+          "color_name": "Tan",
           "quantity": 1
         }
       ],
       "placements": [
         {
           "marker": 1,
-          "instance": "p0789",
-          "part_id": "87081",
-          "color_id": "081",
+          "instance": "face-020",
+          "part_id": "60474",
+          "color_id": "031",
           "x": 2,
-          "y": -2.2,
+          "y": -1.4,
           "z": 48.5,
           "rotation": 0,
           "orientation": "front"
         },
         {
           "marker": 2,
-          "instance": "p0790",
+          "instance": "face-021",
           "part_id": "14769",
-          "color_id": "031",
+          "color_id": "081",
           "x": 3,
-          "y": -2.6,
-          "z": 53.5,
+          "y": -1.8,
+          "z": 51,
           "rotation": 0,
           "orientation": "front"
         }

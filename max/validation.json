@@ -12,11 +12,11 @@
     "p0486: 4/6 underside sites connected; inspect overhang",
     "p0768: 2/8 underside sites connected; inspect overhang",
     "p0771: 2/8 underside sites connected; inspect overhang",
-    "p0774: 6/24 underside sites connected; inspect overhang",
-    "p0787: 2/8 underside sites connected; inspect overhang",
-    "p0788: 2/4 underside sites connected; inspect overhang",
-    "p0789: 2/8 underside sites connected; inspect overhang",
-    "p0790: 2/4 underside sites connected; inspect overhang",
+    "face-001: 6/12 underside sites connected; inspect overhang",
+    "face-008: 1/4 underside sites connected; inspect overhang",
+    "face-013: 1/4 underside sites connected; inspect overhang",
+    "face-018: 2/12 underside sites connected; inspect overhang",
+    "face-020: 2/12 underside sites connected; inspect overhang",
     "Foundation parts start loose; align them on a flat table until the crossing plates join them."
   ],
   "physical_build": "unverified",
@@ -41,7 +41,7 @@
     "material tolerances",
     "physical load capacity"
   ],
-  "part_count": 869,
+  "part_count": 873,
   "step_count": 282,
   "connection_components": 1,
   "dimensions_mm": [

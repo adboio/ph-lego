@@ -10,8 +10,8 @@ from xml.etree import ElementTree as ET
 from bricklib import COLORS, PARTS, dumps, inventory, ldraw, validate
 from geometry import bounds
 
-BRICKLINK_COLORS = {'031': 2, '081': 88, '082': 120, '080': 11}
-LDRAW_COLORS = {'031': 19, '081': 70, '082': 308, '080': 0}
+BRICKLINK_COLORS = {'031': 2, '081': 88, '082': 120, '080': 11, '090': 1}
+LDRAW_COLORS = {'031': 19, '081': 70, '082': 308, '080': 0, '090': 15}
 PLANS = {
     '3010': [('3004', 0, 0, 0), ('3004', 2, 0, 0)],
     '3002': [('3003', 0, 0, 0), ('3004', 2, 0, 90)],

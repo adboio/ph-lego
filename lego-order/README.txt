@@ -1,6 +1,9 @@
 MAX — GENUINE LEGO / BRICKLINK ORDERING VERSION
 
-972 pieces, 38 part/color combinations, four colors.
+976 pieces, 39 part/color combinations, five colors.
+
+The revised face has centered ears, a tan muzzle, a brown nose, and black eyes
+with white quarter-tile highlights. No eye stickers are required.
 
 ORDERING
 Use max-lego-new.xml for new LEGO parts only.
@@ -11,18 +14,18 @@ Both lists contain the entire model; do not import both into the same wanted lis
 2. Select "Upload BrickLink XML format".
 3. Create a new wanted list called "Max - LEGO".
 4. Open the chosen XML file in a text editor and paste its entire contents.
-5. Continue to the verification screen and confirm 972 pieces / 38 entries.
+5. Continue to the verification screen and confirm 976 pieces / 39 entries.
 6. Add the items to the list, then use Buy All to compare seller combinations.
    Review seller location, condition, shipping and totals before checkout.
 
 The XML follows BrickLink's documented wanted-list schema, including no XML
-declaration. Color IDs are Tan 2, Reddish Brown 88, Dark Brown 120, Black 11.
+declaration. Color IDs are Tan 2, Reddish Brown 88, Dark Brown 120, Black 11, White 1.
 The model's LDraw tile ID 3069b is exported as current BrickLink catalog ID 3069.
 The XML has been parsed and reconciled against the adjusted model locally;
 an account upload and checkout have not been performed.
 
 BUILDING THIS VERSION
-The original GoBricks model has 869 pieces. This LEGO ordering variant contains
+The original GoBricks model has 873 pieces. This LEGO ordering variant contains
 103 additional pieces because five Dark Brown part types were replaced with
 smaller parts that occupy exactly the same spaces, with no color substitutions.
 Only DARK BROWN pieces receive these replacements. Other colors stay unchanged.
@@ -42,7 +45,7 @@ model.json contain the actual LEGO variant. The ordering XML already includes
 all replacement quantities; do not add the replacement pieces a second time.
 
 CATALOG AUDIT (OCTOBER 2, 2026)
-Every one of the final 38 part/color combinations has a LEGO element code in
+Every one of the final 39 part/color combinations has a LEGO element code in
 BrickLink's catalog color records; see catalog-check.json for the evidence.
 Dark Brown 3010 and 3002 lacked normal set/element-code evidence in the records
 checked, while Dark Brown 3032, 3034 and 3036 were absent from color-image records.

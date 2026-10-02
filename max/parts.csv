@@ -1,9 +1,10 @@
 part_id,part_name,color_id,color_name,quantity
-14769,Round Tile 2 x 2,031,Tan,2
+14769,Round Tile 2 x 2,081,Reddish Brown,2
 15068,Slope Curved 2 x 2,031,Tan,2
 15068,Slope Curved 2 x 2,081,Reddish Brown,8
 15573,Jumper Plate 1 x 2,031,Tan,1
-27925,Corner Round Tile 2 x 2,082,Dark Brown,2
+25269,Quarter Round Tile 1 x 1,080,Black,6
+25269,Quarter Round Tile 1 x 1,090,White,2
 3001,Brick 2 x 4,031,Tan,36
 3001,Brick 2 x 4,082,Dark Brown,193
 3002,Brick 2 x 3,031,Tan,9
@@ -25,20 +26,20 @@ part_id,part_name,color_id,color_name,quantity
 3022,Plate 2 x 2,082,Dark Brown,2
 3023,Plate 1 x 2,082,Dark Brown,3
 3024,Plate 1 x 1,082,Dark Brown,3
-3032,Plate 4 x 6,031,Tan,1
 3032,Plate 4 x 6,082,Dark Brown,2
 3034,Plate 2 x 8,082,Dark Brown,6
 3035,Plate 4 x 8,082,Dark Brown,8
 3036,Plate 6 x 8,082,Dark Brown,1
 3069b,Tile 1 x 2,031,Tan,1
-3069b,Tile 1 x 2,082,Dark Brown,2
 3623,Plate 1 x 3,082,Dark Brown,1
 3666,Plate 1 x 6,082,Dark Brown,3
 3710,Plate 1 x 4,082,Dark Brown,5
+3795,Plate 2 x 6,031,Tan,1
 3795,Plate 2 x 6,082,Dark Brown,5
+4032,Round Plate 2 x 2 with Axle Hole,080,Black,2
 54200,Slope 30 1 x 1,081,Reddish Brown,28
 54200,Slope 30 1 x 1,082,Dark Brown,129
-87081,Round Brick 4 x 4 with Hole,081,Reddish Brown,2
+60474,Round Plate 4 x 4,031,Tan,2
 87087,"Brick 1 x 1, Side Stud",031,Tan,16
 87087,"Brick 1 x 1, Side Stud",082,Dark Brown,102
-98138,Round Tile 1 x 1,080,Black,3
+98138,Round Tile 1 x 1,081,Reddish Brown,1

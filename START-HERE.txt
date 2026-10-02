@@ -1,66 +1,62 @@
-MAX THE POSTHOG HEDGEHOG
+MAX THE POSTHOG HEDGEHOG - REVISED FACE
 
-Final model: max/model.ldr (LDraw) and max/model.json (local editable source)
-Building guide: max/instructions/index.html
+3D building guide: max/instructions/index.html
 Printable instructions: max/instructions.pdf
-Standard inventory: max/parts.csv
-Supplier-linked reference inventory: brickwith-parts.csv (not an upload format)
-Tested BrickWith upload: brickwith-upload/max-brickwith.ldr
-Supplier-exported parts list: brickwith-upload/max-brickwith.xml
+Editable model: max/model.json and max/model.ldr
 Four views: max/renders/
+Inventory: max/parts.csv
 
-869 pieces, 282 short steps, four GoBricks colors.
-Approximate body-envelope dimensions: 18.9 cm wide x 11.8 cm deep x 18.9 cm tall.
-Open the HTML guide in a browser; the 3D viewer, images and navigation work offline.
-Drag to rotate, scroll/pinch to zoom, and right-drag to pan. Use the Show menu
-to switch between the complete model and the current step. Step navigation
-updates the 3D assembly; previous pieces are muted. Reset view fits the model.
-The Step illustration button returns to the original rendered instructions.
-Keep the guide's surrounding folders together.
+873 pieces, 44 part/color combinations, 282 steps, five colors.
+Approximately 18.9 cm wide x 11.8 cm deep x 18.9 cm tall.
+Skin remains Tan. The body, coat, arms and feet are unchanged.
+The face has centered thin ears, a compact curved muzzle, a brown nose,
+and black round eyes with white quarter-tile highlights. No stickers required.
+
+Open the HTML guide in a browser. Its 3D viewer and navigation work offline
+when the surrounding folders stay together. Drag to rotate, scroll/pinch to
+zoom, and right-drag to pan. Use Show to switch between the complete model
+and current step; Reset view fits the model. Step illustration shows the render.
+
+ORDERING
+For genuine LEGO, open lego-order/index.html. Its catalog-audited lists contain
+976 pieces / 39 combinations. Five Dark Brown part types are replaced with
+smaller LEGO parts occupying the same spaces; follow the substitution sheet.
+All revised face parts are included. Import only one complete wanted list.
+
+For BrickWith/GoBricks, use brickwith-upload/max-brickwith.ldr or its XML.
+Live LDraw import on October 2, 2026: 43 combinations / 871 pieces available,
+with an available-parts subtotal of USD 72.06 before shipping/tax.
+Two Tan 60474 ear backing plates are unavailable there. For a mixed build,
+source these through brickwith-upload/missing-ear-plates-bricklink.xml.
+The complete genuine LEGO lists already include these plates.
+See brickwith-upload/README.txt and import-confirmed.png for details.
+No cart or order was created. Prices and availability can change.
+
+The display model.ldr uses custom colors; the supplier file uses standard
+LDraw colors. brickwith-parts.csv is a readable reference, not an upload file.
+GoBricks color IDs: 031 Tan, 081 Reddish Brown, 082 Dark Brown, 080 Black,
+090 White. Preserve these IDs as text.
 
 DESIGN AND CHECKS
-Seated pose and proportions follow the supplied Max plush photographs. The face,
-belly and coat use the tan/brown relationships from the illustrated mascot.
-The face and soft plush outline are interpreted as a stylized brick sculpture.
+The seated pose follows the supplied plush photographs. This is a stylized
+brick interpretation. The extended toolchain checks conservative part envelopes,
+connection alignment, assembly order, insertion envelopes and final connectivity.
+Seventeen engine tests pass. Four renders and representative early, middle,
+facial, late and inventory pages were reviewed.
+This is a digital prototype, not a physically tested build. Support/foundation
+warnings remain. Clutch strength, tipping and load capacity are not verified.
+Foundation plates stay loose until the crossing layers join them.
 
-The extended local toolchain checks connection alignment, assembly order, one
-connected final assembly, and conservative body envelopes. Fifteen extension
-tests cover geometry, connections, round-part holes and export transforms.
-The four views and representative early, middle, late and inventory pages were
-reviewed visually. This is a digital prototype, not a physically tested build.
-Warnings flag partial support on the muzzle, ears, arms and some body overhangs.
-Clutch strength, tipping and load capacity still need a physical test build.
-The initial foundation plates stay loose until their crossing layers are added.
-
-SUPPLIER
-brickwith-parts.csv links each of the 43 final part/color combinations to a
-matching BrickWith product page, checked October 2, 2026. Listings were checked;
-stock has not been reserved, prices totalled, or an order placed. Preserve color
-IDs as text (031 Tan, 081 Reddish Brown, 082 Dark Brown, 080 Black).
-The model uses LDraw 3023 for a 1 x 2 plate; BrickWith lists it as 3023b.
-The automated validation report does not perform this separate supplier check.
-
-EDITING AND REBUILDING
-The editable JSON uses the project-local max-1.0 extension. Run it with the
-scripts in working/engine, which implement slopes, curves, round parts and
-sideways connections. LDraw export uses the same part transforms as the renders.
-The installed brick-models skill and the separate lego project were not changed.
-The working directory contains research notes, the builder and earlier drafts.
+EDITING
+The source uses the local max-1.0 extension implemented in working/engine.
+It supports the slopes, curves, round parts and sideways connections used here.
+Renders, LDraw, the viewer, inventory and instructions share the same assembly.
+Generate a revision in a new output directory and verify it before publication.
+The installed brick-models skill and separate lego project were not changed.
 
 CREDITS
-Character: Max / PostHog, based on user-provided references.
-Model design and local tool extensions: created with Codex for Adam.
-Brick Models engine: Selami Selvi, MIT; license in working/engine/LICENSE.
-Geometry: LDraw Parts Library contributors, CC BY 4.0.
-https://www.ldraw.org/
-https://creativecommons.org/licenses/by/4.0/
-The LDraw geometry library is kept locally under working/library/ldraw.
-
-3D viewer: Three.js and OrbitControls 0.160.1, MIT license embedded in the HTML.
-Viewer assets are embedded; no server or network connection is required.
-Viewer state and fallback checks passed; automated in-app visual preview was
-unavailable because the browser tool blocks local file URLs.
-
-BrickWith import verified October 2, 2026: all 43 items / 869 pieces available.
-The original model.ldr preserves custom display colors; use the dedicated
-brickwith-upload files for ordering. See brickwith-upload/README.txt.
+Max / PostHog; unofficial model created with Codex for Adam.
+Brick Models engine: Selami Selvi, MIT; working/engine/LICENSE.
+Geometry: LDraw Parts Library contributors, CC BY 4.0, https://www.ldraw.org/
+Three.js and OrbitControls 0.160.1: MIT, license embedded in the HTML viewer.
+Downloaded libraries, research, drafts and reference photos remain local.

@@ -26,6 +26,13 @@ class Connections(unittest.TestCase):
   self.assertTrue(validate(model([part('a','87081'),part('b','14769',x=1,y=2,z=3)]))['passed'])
  def test_round_brick_center_tile_floats(self):
   self.assertFalse(validate(model([part('a','87081'),part('b','14769',x=1,y=1,z=3)]))['passed'])
+ def test_round_plate_supports_centered_inner_ear(self):
+  self.assertTrue(validate(model([part('a','60474'),part('b','14769',x=1,y=1,z=1)]))['passed'])
+ def test_eye_quarters_connect_to_round_plate(self):
+  ps=[part('a','4032')]+[part(str(i),'25269',x=x,y=y,z=1,r=r)
+       for i,(x,y,r) in enumerate([(0,0,270),(1,0,0),(0,1,180),(1,1,90)])]
+  self.assertTrue(validate(model(ps))['passed'])
+  self.assertFalse(sites(ps[1])[0])
  def test_mesh_dimensions(self):
   for pid,c in PARTS.items():
    v,f=mesh(pid+'.dat');self.assertTrue(v and f,pid)
