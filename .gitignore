@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+_site/
+
+# Keep the reusable toolchain; local research, libraries and drafts stay local.
+working/*
+!working/engine/

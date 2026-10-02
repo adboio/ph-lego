@@ -1,0 +1,644 @@
+{
+  "version": "max-gobricks-1.0",
+  "parts": {
+    "3001": {
+      "name": "Brick 2 x 4",
+      "width": 4,
+      "depth": 2,
+      "height": 3,
+      "source": "https://library.ldraw.org/library/official/parts/3001.dat",
+      "ldraw_bottom": 24,
+      "studs": true,
+      "round": false
+    },
+    "3002": {
+      "name": "Brick 2 x 3",
+      "width": 3,
+      "depth": 2,
+      "height": 3,
+      "source": "https://library.ldraw.org/library/official/parts/3002.dat",
+      "ldraw_bottom": 24,
+      "studs": true,
+      "round": false
+    },
+    "3003": {
+      "name": "Brick 2 x 2",
+      "width": 2,
+      "depth": 2,
+      "height": 3,
+      "source": "https://library.ldraw.org/library/official/parts/3003.dat",
+      "ldraw_bottom": 24,
+      "studs": true,
+      "round": false
+    },
+    "3004": {
+      "name": "Brick 1 x 2",
+      "width": 2,
+      "depth": 1,
+      "height": 3,
+      "source": "https://library.ldraw.org/library/official/parts/3004.dat",
+      "ldraw_bottom": 24,
+      "studs": true,
+      "round": false
+    },
+    "3005": {
+      "name": "Brick 1 x 1",
+      "width": 1,
+      "depth": 1,
+      "height": 3,
+      "source": "https://library.ldraw.org/library/official/parts/3005.dat",
+      "ldraw_bottom": 24,
+      "studs": true,
+      "round": false
+    },
+    "3010": {
+      "name": "Brick 1 x 4",
+      "width": 4,
+      "depth": 1,
+      "height": 3,
+      "source": "https://library.ldraw.org/library/official/parts/3010.dat",
+      "ldraw_bottom": 24,
+      "studs": true,
+      "round": false
+    },
+    "3020": {
+      "name": "Plate 2 x 4",
+      "width": 4,
+      "depth": 2,
+      "height": 1,
+      "source": "https://library.ldraw.org/library/official/parts/3020.dat",
+      "ldraw_bottom": 8,
+      "studs": true,
+      "round": false
+    },
+    "3021": {
+      "name": "Plate 2 x 3",
+      "width": 3,
+      "depth": 2,
+      "height": 1,
+      "source": "https://library.ldraw.org/library/official/parts/3021.dat",
+      "ldraw_bottom": 8,
+      "studs": true,
+      "round": false
+    },
+    "3022": {
+      "name": "Plate 2 x 2",
+      "width": 2,
+      "depth": 2,
+      "height": 1,
+      "source": "https://library.ldraw.org/library/official/parts/3022.dat",
+      "ldraw_bottom": 8,
+      "studs": true,
+      "round": false
+    },
+    "3023": {
+      "name": "Plate 1 x 2",
+      "width": 2,
+      "depth": 1,
+      "height": 1,
+      "source": "https://library.ldraw.org/library/official/parts/3023.dat",
+      "ldraw_bottom": 8,
+      "studs": true,
+      "round": false
+    },
+    "3024": {
+      "name": "Plate 1 x 1",
+      "width": 1,
+      "depth": 1,
+      "height": 1,
+      "source": "https://library.ldraw.org/library/official/parts/3024.dat",
+      "ldraw_bottom": 8,
+      "studs": true,
+      "round": false
+    },
+    "3795": {
+      "name": "Plate 2 x 6",
+      "width": 6,
+      "depth": 2,
+      "height": 1,
+      "source": "https://library.ldraw.org/library/official/parts/3795.dat",
+      "ldraw_bottom": 8,
+      "studs": true,
+      "round": false
+    },
+    "3034": {
+      "name": "Plate 2 x 8",
+      "width": 8,
+      "depth": 2,
+      "height": 1,
+      "source": "https://library.ldraw.org/library/official/parts/3034.dat",
+      "ldraw_bottom": 8,
+      "studs": true,
+      "round": false
+    },
+    "3032": {
+      "name": "Plate 4 x 6",
+      "width": 6,
+      "depth": 4,
+      "height": 1,
+      "source": "https://library.ldraw.org/library/official/parts/3032.dat",
+      "ldraw_bottom": 8,
+      "studs": true,
+      "round": false
+    },
+    "3035": {
+      "name": "Plate 4 x 8",
+      "width": 8,
+      "depth": 4,
+      "height": 1,
+      "source": "https://library.ldraw.org/library/official/parts/3035.dat",
+      "ldraw_bottom": 8,
+      "studs": true,
+      "round": false
+    },
+    "3036": {
+      "name": "Plate 6 x 8",
+      "width": 8,
+      "depth": 6,
+      "height": 1,
+      "source": "https://library.ldraw.org/library/official/parts/3036.dat",
+      "ldraw_bottom": 8,
+      "studs": true,
+      "round": false
+    },
+    "3666": {
+      "name": "Plate 1 x 6",
+      "width": 6,
+      "depth": 1,
+      "height": 1,
+      "source": "https://library.ldraw.org/library/official/parts/3666.dat",
+      "ldraw_bottom": 8,
+      "studs": true,
+      "round": false
+    },
+    "3710": {
+      "name": "Plate 1 x 4",
+      "width": 4,
+      "depth": 1,
+      "height": 1,
+      "source": "https://library.ldraw.org/library/official/parts/3710.dat",
+      "ldraw_bottom": 8,
+      "studs": true,
+      "round": false
+    },
+    "3623": {
+      "name": "Plate 1 x 3",
+      "width": 3,
+      "depth": 1,
+      "height": 1,
+      "source": "https://library.ldraw.org/library/official/parts/3623.dat",
+      "ldraw_bottom": 8,
+      "studs": true,
+      "round": false
+    },
+    "11477": {
+      "name": "Slope Curved 2 x 1",
+      "width": 1,
+      "depth": 2,
+      "height": 2,
+      "source": "https://library.ldraw.org/library/official/parts/11477.dat",
+      "ldraw_bottom": 0,
+      "studs": false,
+      "round": false
+    },
+    "15068": {
+      "name": "Slope Curved 2 x 2",
+      "width": 2,
+      "depth": 2,
+      "height": 2,
+      "source": "https://library.ldraw.org/library/official/parts/15068.dat",
+      "ldraw_bottom": 0,
+      "studs": false,
+      "round": false
+    },
+    "54200": {
+      "name": "Slope 30 1 x 1",
+      "width": 1,
+      "depth": 1,
+      "height": 2,
+      "source": "https://library.ldraw.org/library/official/parts/54200.dat",
+      "ldraw_bottom": 0,
+      "studs": false,
+      "round": false
+    },
+    "87087": {
+      "name": "Brick 1 x 1, Side Stud",
+      "width": 1,
+      "depth": 1,
+      "height": 3,
+      "source": "https://library.ldraw.org/library/official/parts/87087.dat",
+      "ldraw_bottom": 24,
+      "studs": true,
+      "round": false
+    },
+    "11211": {
+      "name": "Brick 1 x 2, Side Studs",
+      "width": 2,
+      "depth": 1,
+      "height": 3,
+      "source": "https://library.ldraw.org/library/official/parts/11211.dat",
+      "ldraw_bottom": 24,
+      "studs": true,
+      "round": false
+    },
+    "98138": {
+      "name": "Round Tile 1 x 1",
+      "width": 1,
+      "depth": 1,
+      "height": 1,
+      "source": "https://library.ldraw.org/library/official/parts/98138.dat",
+      "ldraw_bottom": 8,
+      "studs": false,
+      "round": true
+    },
+    "14769": {
+      "name": "Round Tile 2 x 2",
+      "width": 2,
+      "depth": 2,
+      "height": 1,
+      "source": "https://library.ldraw.org/library/official/parts/14769.dat",
+      "ldraw_bottom": 8,
+      "studs": false,
+      "round": true
+    },
+    "3069b": {
+      "name": "Tile 1 x 2",
+      "width": 2,
+      "depth": 1,
+      "height": 1,
+      "source": "https://library.ldraw.org/library/official/parts/3069b.dat",
+      "ldraw_bottom": 8,
+      "studs": false,
+      "round": false
+    },
+    "3068b": {
+      "name": "Tile 2 x 2",
+      "width": 2,
+      "depth": 2,
+      "height": 1,
+      "source": "https://library.ldraw.org/library/official/parts/3068b.dat",
+      "ldraw_bottom": 8,
+      "studs": false,
+      "round": false
+    },
+    "3070b": {
+      "name": "Tile 1 x 1",
+      "width": 1,
+      "depth": 1,
+      "height": 1,
+      "source": "https://library.ldraw.org/library/official/parts/3070b.dat",
+      "ldraw_bottom": 8,
+      "studs": false,
+      "round": false
+    },
+    "2431": {
+      "name": "Tile 1 x 4",
+      "width": 4,
+      "depth": 1,
+      "height": 1,
+      "source": "https://library.ldraw.org/library/official/parts/2431.dat",
+      "ldraw_bottom": 8,
+      "studs": false,
+      "round": false
+    },
+    "87079": {
+      "name": "Tile 2 x 4",
+      "width": 4,
+      "depth": 2,
+      "height": 1,
+      "source": "https://library.ldraw.org/library/official/parts/87079.dat",
+      "ldraw_bottom": 8,
+      "studs": false,
+      "round": false
+    },
+    "60474": {
+      "name": "Round Plate 4 x 4",
+      "width": 4,
+      "depth": 4,
+      "height": 1,
+      "source": "https://library.ldraw.org/library/official/parts/60474.dat",
+      "ldraw_bottom": 8,
+      "studs": true,
+      "round": true
+    },
+    "4150": {
+      "name": "Round Tile 2 x 2",
+      "width": 2,
+      "depth": 2,
+      "height": 1,
+      "source": "https://library.ldraw.org/library/official/parts/4150.dat",
+      "ldraw_bottom": 8,
+      "studs": false,
+      "round": true
+    },
+    "15573": {
+      "name": "Jumper Plate 1 x 2",
+      "width": 2,
+      "depth": 1,
+      "height": 1,
+      "ldraw_bottom": 8,
+      "studs": true,
+      "source": "https://library.ldraw.org/library/official/parts/15573.dat"
+    },
+    "27925": {
+      "name": "Corner Round Tile 2 x 2",
+      "width": 2,
+      "depth": 2,
+      "height": 1,
+      "ldraw_bottom": 8,
+      "ldraw_offset": [
+        10,
+        30,
+        8
+      ],
+      "studs": false,
+      "bottom_sites": [
+        [
+          0.5,
+          0.5
+        ],
+        [
+          1.5,
+          1.5
+        ]
+      ],
+      "source": "https://library.ldraw.org/library/official/parts/27925.dat"
+    },
+    "87081": {
+      "name": "Round Brick 4 x 4 with Hole",
+      "width": 4,
+      "depth": 4,
+      "height": 3,
+      "source": "https://library.ldraw.org/library/official/parts/87081.dat",
+      "ldraw_bottom": 24,
+      "studs": true,
+      "round": true,
+      "bottom_sites": [
+        [
+          0.5,
+          1.5
+        ],
+        [
+          0.5,
+          2.5
+        ],
+        [
+          1.5,
+          0.5
+        ],
+        [
+          1.5,
+          3.5
+        ],
+        [
+          2.5,
+          0.5
+        ],
+        [
+          2.5,
+          3.5
+        ],
+        [
+          3.5,
+          1.5
+        ],
+        [
+          3.5,
+          2.5
+        ]
+      ],
+      "top_sites": [
+        [
+          0.5,
+          1.5
+        ],
+        [
+          0.5,
+          2.5
+        ],
+        [
+          1.5,
+          0.5
+        ],
+        [
+          1.5,
+          3.5
+        ],
+        [
+          2.5,
+          0.5
+        ],
+        [
+          2.5,
+          3.5
+        ],
+        [
+          3.5,
+          1.5
+        ],
+        [
+          3.5,
+          2.5
+        ]
+      ]
+    }
+  },
+  "colors": {
+    "014": {
+      "name": "Dark Red",
+      "hex": "#7F131B"
+    },
+    "010": {
+      "name": "Red",
+      "hex": "#FF0000"
+    },
+    "018": {
+      "name": "Coral",
+      "hex": "#FF5869"
+    },
+    "013": {
+      "name": "Magenta",
+      "hex": "#B51C7D"
+    },
+    "012": {
+      "name": "Dark Pink",
+      "hex": "#E95DA2"
+    },
+    "011": {
+      "name": "Bright Pink",
+      "hex": "#F6ADCD"
+    },
+    "017": {
+      "name": "Light Pink",
+      "hex": "#F2C6CF"
+    },
+    "082": {
+      "name": "Dark Brown",
+      "hex": "#3B180D"
+    },
+    "081": {
+      "name": "Reddish Brown",
+      "hex": "#692E14"
+    },
+    "083": {
+      "name": "Dark Orange",
+      "hex": "#A65322"
+    },
+    "084": {
+      "name": "Medium Nougat",
+      "hex": "#AF7446"
+    },
+    "038": {
+      "name": "Nougat",
+      "hex": "#DD8C59"
+    },
+    "021": {
+      "name": "Orange",
+      "hex": "#F57D20"
+    },
+    "036": {
+      "name": "Bright Light Orange",
+      "hex": "#FBAB18"
+    },
+    "030": {
+      "name": "Yellow",
+      "hex": "#FFCD03"
+    },
+    "033": {
+      "name": "Bright Light Yellow",
+      "hex": "#FFF579"
+    },
+    "029": {
+      "name": "Light Yellow",
+      "hex": "#ECD898"
+    },
+    "027": {
+      "name": "Egg White",
+      "hex": "#EFDBB2"
+    },
+    "032": {
+      "name": "Light Nougat",
+      "hex": "#F2E0BD"
+    },
+    "031": {
+      "name": "Tan",
+      "hex": "#DDC48E"
+    },
+    "034": {
+      "name": "Dark Tan",
+      "hex": "#947E5F"
+    },
+    "041": {
+      "name": "Army Green",
+      "hex": "#555631"
+    },
+    "047": {
+      "name": "Dark Green",
+      "hex": "#004A2D"
+    },
+    "049": {
+      "name": "Olive Green",
+      "hex": "#7C9150"
+    },
+    "040": {
+      "name": "Green",
+      "hex": "#009247"
+    },
+    "043": {
+      "name": "Bright Green",
+      "hex": "#00AF4D"
+    },
+    "042": {
+      "name": "Lime",
+      "hex": "#9ACA3C"
+    },
+    "044": {
+      "name": "Yellowish Green",
+      "hex": "#D9E4A7"
+    },
+    "045": {
+      "name": "Light Aqua",
+      "hex": "#C1E4DA"
+    },
+    "048": {
+      "name": "Sand Green",
+      "hex": "#A0BCAC"
+    },
+    "046": {
+      "name": "Medium Azure",
+      "hex": "#00BED3"
+    },
+    "243": {
+      "name": "Dark Turquoise",
+      "hex": "#00838F"
+    },
+    "055": {
+      "name": "Dark Blue",
+      "hex": "#00395E"
+    },
+    "050": {
+      "name": "Blue",
+      "hex": "#006CB7"
+    },
+    "051": {
+      "name": "Dark Azure",
+      "hex": "#00A3DA"
+    },
+    "053": {
+      "name": "Bright Light Blue",
+      "hex": "#78BFEA"
+    },
+    "052": {
+      "name": "Medium Blue",
+      "hex": "#489ECE"
+    },
+    "054": {
+      "name": "Sand Blue",
+      "hex": "#7A89C0"
+    },
+    "060": {
+      "name": "Medium Lilac",
+      "hex": "#4C2F92"
+    },
+    "062": {
+      "name": "Medium Lavender",
+      "hex": "#9675B4"
+    },
+    "063": {
+      "name": "Lavender",
+      "hex": "#BCA6D0"
+    },
+    "064": {
+      "name": "Pink Purple",
+      "hex": "#DECDE7"
+    },
+    "056": {
+      "name": "Light Slate Gray",
+      "hex": "#CBD3EB"
+    },
+    "080": {
+      "name": "Black",
+      "hex": "#161616"
+    },
+    "072": {
+      "name": "Dark Bluish Gray",
+      "hex": "#646767"
+    },
+    "071": {
+      "name": "Light Bluish Gray",
+      "hex": "#A0A19F"
+    },
+    "092": {
+      "name": "Pale Gray",
+      "hex": "#D9D9D6"
+    },
+    "091": {
+      "name": "Cool White",
+      "hex": "#FFFFFF"
+    },
+    "090": {
+      "name": "White",
+      "hex": "#FFFFFA"
+    }
+  }
+}

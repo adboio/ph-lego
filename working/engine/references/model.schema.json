@@ -1,0 +1,246 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Brick Model v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "title",
+    "description",
+    "author",
+    "license",
+    "parts",
+    "steps"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "max-1.0"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "maxLength": 64
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 80,
+      "pattern": "^[^\\x00-\\x1f\\x7f]*$"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 600,
+      "pattern": "^[^\\x00-\\x1f\\x7f]*$"
+    },
+    "author": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 80,
+      "pattern": "^[^\\x00-\\x1f\\x7f]*$"
+    },
+    "license": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 80,
+      "pattern": "^[^\\x00-\\x1f\\x7f]*$"
+    },
+    "parts": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 8000,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "part",
+          "color",
+          "x",
+          "y",
+          "z",
+          "rotation"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "maxLength": 64
+          },
+          "part": {
+            "enum": [
+              "3001",
+              "3002",
+              "3003",
+              "3004",
+              "3005",
+              "3010",
+              "3020",
+              "3021",
+              "3022",
+              "3023",
+              "3024",
+              "3795",
+              "3034",
+              "3032",
+              "3035",
+              "3036",
+              "3666",
+              "3710",
+              "3623",
+              "11477",
+              "15068",
+              "54200",
+              "87087",
+              "11211",
+              "98138",
+              "14769",
+              "3069b",
+              "3068b",
+              "3070b",
+              "2431",
+              "87079",
+              "60474",
+              "4150",
+              "15573",
+              "27925",
+              "87081"
+            ]
+          },
+          "color": {
+            "enum": [
+              "014",
+              "010",
+              "018",
+              "013",
+              "012",
+              "011",
+              "017",
+              "082",
+              "081",
+              "083",
+              "084",
+              "038",
+              "021",
+              "036",
+              "030",
+              "033",
+              "029",
+              "027",
+              "032",
+              "031",
+              "034",
+              "041",
+              "047",
+              "049",
+              "040",
+              "043",
+              "042",
+              "044",
+              "045",
+              "048",
+              "046",
+              "243",
+              "055",
+              "050",
+              "051",
+              "053",
+              "052",
+              "054",
+              "060",
+              "062",
+              "063",
+              "064",
+              "056",
+              "080",
+              "072",
+              "071",
+              "092",
+              "091",
+              "090"
+            ]
+          },
+          "x": {
+            "type": "number",
+            "minimum": -128,
+            "maximum": 128
+          },
+          "y": {
+            "type": "number",
+            "minimum": -128,
+            "maximum": 128
+          },
+          "z": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 256
+          },
+          "rotation": {
+            "enum": [
+              0,
+              90,
+              180,
+              270
+            ]
+          },
+          "orientation": {
+            "enum": [
+              "up",
+              "front",
+              "back",
+              "left",
+              "right"
+            ]
+          }
+        }
+      }
+    },
+    "steps": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 2000,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "title",
+          "parts"
+        ],
+        "properties": {
+          "title": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 80,
+            "pattern": "^[^\\x00-\\x1f\\x7f]*$"
+          },
+          "note": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 240,
+            "pattern": "^[^\\x00-\\x1f\\x7f]*$"
+          },
+          "parts": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 8,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+              "maxLength": 64
+            }
+          },
+          "view": {
+            "enum": [
+              "front-right",
+              "back-right",
+              "back-left",
+              "front-left"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+MAX THE POSTHOG HEDGEHOG
+
+Final model: max/model.ldr (LDraw) and max/model.json (local editable source)
+Building guide: max/instructions/index.html
+Printable instructions: max/instructions.pdf
+Standard inventory: max/parts.csv
+Supplier-linked reference inventory: brickwith-parts.csv (not an upload format)
+Tested BrickWith upload: brickwith-upload/max-brickwith.ldr
+Supplier-exported parts list: brickwith-upload/max-brickwith.xml
+Four views: max/renders/
+
+869 pieces, 282 short steps, four GoBricks colors.
+Approximate body-envelope dimensions: 18.9 cm wide x 11.8 cm deep x 18.9 cm tall.
+Open the HTML guide in a browser; the 3D viewer, images and navigation work offline.
+Drag to rotate, scroll/pinch to zoom, and right-drag to pan. Use the Show menu
+to switch between the complete model and the current step. Step navigation
+updates the 3D assembly; previous pieces are muted. Reset view fits the model.
+The Step illustration button returns to the original rendered instructions.
+Keep the guide's surrounding folders together.
+
+DESIGN AND CHECKS
+Seated pose and proportions follow the supplied Max plush photographs. The face,
+belly and coat use the tan/brown relationships from the illustrated mascot.
+The face and soft plush outline are interpreted as a stylized brick sculpture.
+
+The extended local toolchain checks connection alignment, assembly order, one
+connected final assembly, and conservative body envelopes. Fifteen extension
+tests cover geometry, connections, round-part holes and export transforms.
+The four views and representative early, middle, late and inventory pages were
+reviewed visually. This is a digital prototype, not a physically tested build.
+Warnings flag partial support on the muzzle, ears, arms and some body overhangs.
+Clutch strength, tipping and load capacity still need a physical test build.
+The initial foundation plates stay loose until their crossing layers are added.
+
+SUPPLIER
+brickwith-parts.csv links each of the 43 final part/color combinations to a
+matching BrickWith product page, checked October 2, 2026. Listings were checked;
+stock has not been reserved, prices totalled, or an order placed. Preserve color
+IDs as text (031 Tan, 081 Reddish Brown, 082 Dark Brown, 080 Black).
+The model uses LDraw 3023 for a 1 x 2 plate; BrickWith lists it as 3023b.
+The automated validation report does not perform this separate supplier check.
+
+EDITING AND REBUILDING
+The editable JSON uses the project-local max-1.0 extension. Run it with the
+scripts in working/engine, which implement slopes, curves, round parts and
+sideways connections. LDraw export uses the same part transforms as the renders.
+The installed brick-models skill and the separate lego project were not changed.
+The working directory contains research notes, the builder and earlier drafts.
+
+CREDITS
+Character: Max / PostHog, based on user-provided references.
+Model design and local tool extensions: created with Codex for Adam.
+Brick Models engine: Selami Selvi, MIT; license in working/engine/LICENSE.
+Geometry: LDraw Parts Library contributors, CC BY 4.0.
+https://www.ldraw.org/
+https://creativecommons.org/licenses/by/4.0/
+The LDraw geometry library is kept locally under working/library/ldraw.
+
+3D viewer: Three.js and OrbitControls 0.160.1, MIT license embedded in the HTML.
+Viewer assets are embedded; no server or network connection is required.
+Viewer state and fallback checks passed; automated in-app visual preview was
+unavailable because the browser tool blocks local file URLs.
+
+BrickWith import verified October 2, 2026: all 43 items / 869 pieces available.
+The original model.ldr preserves custom display colors; use the dedicated
+brickwith-upload files for ordering. See brickwith-upload/README.txt.
