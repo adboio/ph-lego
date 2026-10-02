@@ -10,6 +10,7 @@ Drag to rotate, scroll or pinch to zoom, and right-drag to pan. Switch between t
 
 ## Downloads
 
+- [Genuine LEGO / BrickLink ordering version](https://adboio.github.io/ph-lego/lego-order/) — 972 pieces, with documented substitutions and new-only or any-condition wanted lists
 - [Printable instructions](max/instructions.pdf)
 - [BrickWith upload — LDraw](brickwith-upload/max-brickwith.ldr)
 - [BrickWith upload — BrickLink XML](brickwith-upload/max-brickwith.xml)

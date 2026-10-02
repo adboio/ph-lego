@@ -1,0 +1,351 @@
+{
+  "checked_on": "2026-10-02",
+  "scope": "LEGO part/color catalog existence, not live seller stock or price",
+  "xml_account_import": "not performed",
+  "piece_count": 972,
+  "lot_count": 38,
+  "items": [
+    {
+      "bricklink_part_id": "14769",
+      "bricklink_color_id": 2,
+      "color_name": "Tan",
+      "quantity": 2,
+      "example_lego_element_id": "6066344",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=14769&itemType=P"
+    },
+    {
+      "bricklink_part_id": "15068",
+      "bricklink_color_id": 2,
+      "color_name": "Tan",
+      "quantity": 2,
+      "example_lego_element_id": "6046924",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=15068&itemType=P"
+    },
+    {
+      "bricklink_part_id": "15068",
+      "bricklink_color_id": 88,
+      "color_name": "Reddish Brown",
+      "quantity": 8,
+      "example_lego_element_id": "6146858",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=15068&itemType=P"
+    },
+    {
+      "bricklink_part_id": "15573",
+      "bricklink_color_id": 2,
+      "color_name": "Tan",
+      "quantity": 1,
+      "example_lego_element_id": "6092587",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=15573&itemType=P"
+    },
+    {
+      "bricklink_part_id": "27925",
+      "bricklink_color_id": 120,
+      "color_name": "Dark Brown",
+      "quantity": 2,
+      "example_lego_element_id": "6462537",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=27925&itemType=P"
+    },
+    {
+      "bricklink_part_id": "3001",
+      "bricklink_color_id": 2,
+      "color_name": "Tan",
+      "quantity": 36,
+      "example_lego_element_id": "4114319",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=3001&itemType=P"
+    },
+    {
+      "bricklink_part_id": "3001",
+      "bricklink_color_id": 120,
+      "color_name": "Dark Brown",
+      "quantity": 193,
+      "example_lego_element_id": "6353072",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=3001&itemType=P"
+    },
+    {
+      "bricklink_part_id": "3002",
+      "bricklink_color_id": 2,
+      "color_name": "Tan",
+      "quantity": 9,
+      "example_lego_element_id": "4159739",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=3002&itemType=P"
+    },
+    {
+      "bricklink_part_id": "3003",
+      "bricklink_color_id": 2,
+      "color_name": "Tan",
+      "quantity": 8,
+      "example_lego_element_id": "4114306",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=3003&itemType=P"
+    },
+    {
+      "bricklink_part_id": "3003",
+      "bricklink_color_id": 120,
+      "color_name": "Dark Brown",
+      "quantity": 21,
+      "example_lego_element_id": "6092677",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=3003&itemType=P"
+    },
+    {
+      "bricklink_part_id": "3004",
+      "bricklink_color_id": 2,
+      "color_name": "Tan",
+      "quantity": 4,
+      "example_lego_element_id": "4109995",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=3004&itemType=P"
+    },
+    {
+      "bricklink_part_id": "3004",
+      "bricklink_color_id": 88,
+      "color_name": "Reddish Brown",
+      "quantity": 2,
+      "example_lego_element_id": "4211149",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=3004&itemType=P"
+    },
+    {
+      "bricklink_part_id": "3004",
+      "bricklink_color_id": 120,
+      "color_name": "Dark Brown",
+      "quantity": 198,
+      "example_lego_element_id": "6058257",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=3004&itemType=P"
+    },
+    {
+      "bricklink_part_id": "3005",
+      "bricklink_color_id": 2,
+      "color_name": "Tan",
+      "quantity": 2,
+      "example_lego_element_id": "4113915",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=3005&itemType=P"
+    },
+    {
+      "bricklink_part_id": "3005",
+      "bricklink_color_id": 120,
+      "color_name": "Dark Brown",
+      "quantity": 102,
+      "example_lego_element_id": "6226437",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=3005&itemType=P"
+    },
+    {
+      "bricklink_part_id": "3010",
+      "bricklink_color_id": 2,
+      "color_name": "Tan",
+      "quantity": 24,
+      "example_lego_element_id": "4113916",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=3010&itemType=P"
+    },
+    {
+      "bricklink_part_id": "3010",
+      "bricklink_color_id": 88,
+      "color_name": "Reddish Brown",
+      "quantity": 7,
+      "example_lego_element_id": "4211225",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=3010&itemType=P"
+    },
+    {
+      "bricklink_part_id": "3020",
+      "bricklink_color_id": 88,
+      "color_name": "Reddish Brown",
+      "quantity": 8,
+      "example_lego_element_id": "4211186",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=3020&itemType=P"
+    },
+    {
+      "bricklink_part_id": "3020",
+      "bricklink_color_id": 120,
+      "color_name": "Dark Brown",
+      "quantity": 24,
+      "example_lego_element_id": "6226792",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=3020&itemType=P"
+    },
+    {
+      "bricklink_part_id": "3021",
+      "bricklink_color_id": 120,
+      "color_name": "Dark Brown",
+      "quantity": 3,
+      "example_lego_element_id": "4640675",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=3021&itemType=P"
+    },
+    {
+      "bricklink_part_id": "3022",
+      "bricklink_color_id": 2,
+      "color_name": "Tan",
+      "quantity": 1,
+      "example_lego_element_id": "4114084",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=3022&itemType=P"
+    },
+    {
+      "bricklink_part_id": "3022",
+      "bricklink_color_id": 120,
+      "color_name": "Dark Brown",
+      "quantity": 2,
+      "example_lego_element_id": "6494115",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=3022&itemType=P"
+    },
+    {
+      "bricklink_part_id": "3023",
+      "bricklink_color_id": 120,
+      "color_name": "Dark Brown",
+      "quantity": 3,
+      "example_lego_element_id": "6058221",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=3023&itemType=P"
+    },
+    {
+      "bricklink_part_id": "3024",
+      "bricklink_color_id": 120,
+      "color_name": "Dark Brown",
+      "quantity": 3,
+      "example_lego_element_id": "6194729",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=3024&itemType=P"
+    },
+    {
+      "bricklink_part_id": "3032",
+      "bricklink_color_id": 2,
+      "color_name": "Tan",
+      "quantity": 1,
+      "example_lego_element_id": "4114001",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=3032&itemType=P"
+    },
+    {
+      "bricklink_part_id": "3035",
+      "bricklink_color_id": 120,
+      "color_name": "Dark Brown",
+      "quantity": 9,
+      "example_lego_element_id": "6447571",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=3035&itemType=P"
+    },
+    {
+      "bricklink_part_id": "3069",
+      "bricklink_color_id": 2,
+      "color_name": "Tan",
+      "quantity": 1,
+      "example_lego_element_id": "4114026",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=3069&itemType=P"
+    },
+    {
+      "bricklink_part_id": "3069",
+      "bricklink_color_id": 120,
+      "color_name": "Dark Brown",
+      "quantity": 2,
+      "example_lego_element_id": "4566688",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=3069&itemType=P"
+    },
+    {
+      "bricklink_part_id": "3623",
+      "bricklink_color_id": 120,
+      "color_name": "Dark Brown",
+      "quantity": 1,
+      "example_lego_element_id": "6518013",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=3623&itemType=P"
+    },
+    {
+      "bricklink_part_id": "3666",
+      "bricklink_color_id": 120,
+      "color_name": "Dark Brown",
+      "quantity": 3,
+      "example_lego_element_id": "6223039",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=3666&itemType=P"
+    },
+    {
+      "bricklink_part_id": "3710",
+      "bricklink_color_id": 120,
+      "color_name": "Dark Brown",
+      "quantity": 5,
+      "example_lego_element_id": "6252667",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=3710&itemType=P"
+    },
+    {
+      "bricklink_part_id": "3795",
+      "bricklink_color_id": 120,
+      "color_name": "Dark Brown",
+      "quantity": 5,
+      "example_lego_element_id": "4518687",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=3795&itemType=P"
+    },
+    {
+      "bricklink_part_id": "54200",
+      "bricklink_color_id": 88,
+      "color_name": "Reddish Brown",
+      "quantity": 28,
+      "example_lego_element_id": "4504376",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=54200&itemType=P"
+    },
+    {
+      "bricklink_part_id": "54200",
+      "bricklink_color_id": 120,
+      "color_name": "Dark Brown",
+      "quantity": 129,
+      "example_lego_element_id": "6259071",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=54200&itemType=P"
+    },
+    {
+      "bricklink_part_id": "87081",
+      "bricklink_color_id": 88,
+      "color_name": "Reddish Brown",
+      "quantity": 2,
+      "example_lego_element_id": "6034334",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=87081&itemType=P"
+    },
+    {
+      "bricklink_part_id": "87087",
+      "bricklink_color_id": 2,
+      "color_name": "Tan",
+      "quantity": 16,
+      "example_lego_element_id": "4579260",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=87087&itemType=P"
+    },
+    {
+      "bricklink_part_id": "87087",
+      "bricklink_color_id": 120,
+      "color_name": "Dark Brown",
+      "quantity": 102,
+      "example_lego_element_id": "6251021",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=87087&itemType=P"
+    },
+    {
+      "bricklink_part_id": "98138",
+      "bricklink_color_id": 11,
+      "color_name": "Black",
+      "quantity": 3,
+      "example_lego_element_id": "6284070",
+      "evidence": "Element code recorded in BrickLink Part Color Codes table",
+      "source_url": "https://www.bricklink.com/catalogColors.asp?itemNo=98138&itemType=P"
+    }
+  ]
+}
